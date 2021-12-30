@@ -1,17 +1,11 @@
-import styled from 'styled-components';
-
-const BasicTitle = styled.h1`
-  text-align: center;
-  text-transform: capitalize;
-`;
+import { BasicTitle } from './components/BasicTitle';
+import { DefaultButton } from './components/DefaultButton';
 
 function App() {
   return (
     <>
       <BasicTitle>hello world</BasicTitle>
-      <BasicTitle>hello world</BasicTitle>
-      <BasicTitle>hello world</BasicTitle>
-      <BasicTitle>hello world</BasicTitle>
+      <DefaultButton>click me</DefaultButton>
     </>
   );
 }
