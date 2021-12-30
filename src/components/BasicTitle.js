@@ -5,4 +5,4 @@ export const BasicTitle = styled.h1`
   text-transform: capitalize;
   /* color: ${({ special }) => special && 'red'}; This sentence if i need a prop to set a specific value */
   color: ${({ special }) => special ? 'red':'blue'};
-`; 
+`;
