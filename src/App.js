@@ -1,7 +1,17 @@
+import styled from 'styled-components';
+
+const BasicTitle = styled.h1`
+  text-align: center;
+  text-transform: capitalize;
+`;
+
 function App() {
   return (
     <>
-      <h1> Hola Mundo </h1>
+      <BasicTitle>hello world</BasicTitle>
+      <BasicTitle>hello world</BasicTitle>
+      <BasicTitle>hello world</BasicTitle>
+      <BasicTitle>hello world</BasicTitle>
     </>
   );
 }
