@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../utils"
+import { colors, setupBorder } from "../utils"
 
 const ComplexTitle = () => {
   return(
@@ -12,7 +12,7 @@ const ComplexTitle = () => {
 };
 
 const Div = styled.div`
-
+  border: ${setupBorder({width: 5, type: 'solid', color: 'green'})}
 `;
 
 const Wrapper = styled.div`
