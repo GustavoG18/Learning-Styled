@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   .underline {
     width: 5rem;
     height: 0.5rem;
-    background: red;
+    background: var(--primary);
     margin: 4rem auto;
   };
 `;
