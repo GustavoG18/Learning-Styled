@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../utils"
 
 const ComplexTitle = () => {
   return(
@@ -18,7 +19,7 @@ const Wrapper = styled.div`
   .underline {
     width: 5rem;
     height: 0.5rem;
-    background: var(--primary);
+    background: ${colors.primary};
     margin: 4rem auto;
   };
 `;
